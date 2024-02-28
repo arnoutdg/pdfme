@@ -65,18 +65,7 @@ const Sidebar = (props: SidebarProps) => {
               <DetailView {...props} activeSchema={getLastActiveSchema()} />
             )}
           </div>
-          <div
-            style={{
-              position: 'absolute',
-              bottom: '1.5rem',
-              marginTop: '1rem',
-              left: '50%',
-              transform: 'translateX(-50%)',
-            }}
-          >
-            <Button type="primary" style={{ fontWeight: 600 }} onClick={addSchema}>
-              {i18n('addNewField')}
-            </Button>
+          
           </div>
         </div>
       </div>
